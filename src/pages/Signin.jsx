@@ -20,7 +20,7 @@ const Signin = () => {
                         </div>
                         <Link className='text-gray-500'>Forgot password?</Link>
                     </div>
-                    <Link to='/verify' className='bg-black text-white py-2 text-sm rounded-md' type='button'>Login</Link>
+                    <Link to='/verify' className='text-center bg-black text-white py-2 text-sm rounded-md' type='button'>Login</Link>
                     <div className='text-sm flex gap-2 justify-center pt-4'>
                         <p>Don't have an account?</p>
                         <Link className='text-gray-500' to='/signup'>Create Account</Link>

@@ -14,7 +14,7 @@ const Signup = () => {
                         <Input label={'Password:'} id={'password'} type={'password'} placeholder={'Enter you password.'} />
                         <Input label={'Confirm Password:'} id={'confpassword'} type={'password'} placeholder={'Confirm you password.'} />
                     </div>
-                    <Link to='/verify' className='mt-5 bg-black text-white py-2 text-sm rounded-md' type='button'>Create Account</Link>
+                    <Link to='/verify' className='text-center mt-5 bg-black text-white py-2 text-sm rounded-md' type='button'>Create Account</Link>
                     <div className='text-sm flex gap-2 justify-center pt-4'>
                         <p>Already have an account?</p>
                         <Link className='text-gray-500' to='/signin'>Login</Link>
