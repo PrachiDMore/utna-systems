@@ -11,7 +11,7 @@ const Verificationpage = () => {
 					<h1 className='text-2xl font-semibold '>Verify OTP to login</h1>
 					<p className='text-gray-500 text-sm mb-3'>Enter the 6 digit code that was sent to your phone number!</p>
 					<Input label={'Enter your OTP'} id={'email'} type={'email'} placeholder={'Enter you email.'} />
-					<button className='mt-5 bg-black text-white py-2 text-sm rounded-md' type='button'>Verify OTP</button>
+					<Link to='/dashboard' className='mt-5 bg-black text-white py-2 text-sm rounded-md' type='button'>Verify OTP</Link>
 					<div className='text-sm flex gap-2 justify-center pt-4'>
 						<p>Didn't received OTP?</p>
 						<Link className='text-gray-500'>Resend OTP</Link>
